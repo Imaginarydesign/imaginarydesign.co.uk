@@ -10,7 +10,6 @@ Thumbs.db
 
 # Ignore for Jekyll projects #
 assets
-_site
 node_modules
 bower_components
 .tmp
