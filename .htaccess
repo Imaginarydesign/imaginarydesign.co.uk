@@ -28,6 +28,7 @@ RewriteEngine on
 
 Redirect 301 /contact /
 Redirect 301 /blog /
+Redirect 301 /about /
 
 # ##############################################################################
 # # ERRORS                                                                     #
