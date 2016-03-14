@@ -14,5 +14,5 @@ permalink: pretty
 # File inclusions/exclusions
 #==============================
 
-# include: [".htaccess"]
+include: [".htaccess"]
 exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src"]
