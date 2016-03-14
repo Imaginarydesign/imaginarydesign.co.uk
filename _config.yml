@@ -1,0 +1,18 @@
+#==============================
+# General site config
+#==============================
+
+name: "Adam Koniuszewski - Designer & Front-End Developer"
+description: Designer
+url: http://imaginarydesign.co.uk
+
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+permalink: pretty
+
+#==============================
+# File inclusions/exclusions
+#==============================
+
+# include: [".htaccess"]
+exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src"]

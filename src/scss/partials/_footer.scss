@@ -1,0 +1,137 @@
+/* ==========================================================================
+Footer
+========================================================================== */
+footer {
+  background-color: $footer-primary;
+  position: relative;
+
+  p {
+    color: $txt-accent;
+    font-size: $nav-font-size;
+  }
+  a {
+    color: $txt-light;
+  }
+  a:hover {
+    color: $accent-color;
+  }
+  ul.footer-group {
+    border-top: solid 1px #4E566C;
+    padding-top: 25px;
+    margin-bottom: 45px;
+  }
+  ul.footer-group li {
+    display: inline-block;
+  }
+  ul.footer-group li a {
+    font-size: $nav-font-size;
+    text-transform: uppercase;
+  }
+  ul.footer-group li a:hover {
+    color: $accent-color;
+  }
+  ul.footer-group li {
+    margin-right: 30px;
+  }
+  ul.footer-group li:last-child {
+    margin-right: 0;
+  }
+  span.fa-heart {
+    color: #ff415c;
+    font-size: 15px;
+    margin: 0 2px;
+  }
+  .social-share {
+    position: absolute;
+    background-color: #373D4A;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    padding: 142px 0 0 70px;
+
+    p {
+      color: $txt-light;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+    }
+    a.twitter-share {
+      height: 60px;
+      width: 60px;
+      background-color: #1AB4EF;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+    }
+    a.facebook-share {
+      height: 60px;
+      width: 60px;
+      background-color: #3B5898;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+    }
+    a.dribbble-share {
+      height: 60px;
+      width: 60px;
+      background-color: #DA658D;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+    }
+    a.github-share {
+      color: #000;
+      height: 60px;
+      width: 60px;
+      background-color: #F5F5F5;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+    }
+    a.linkedin-share {
+      color: #fff;
+      height: 60px;
+      width: 60px;
+      background-color: #0077b5;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+    }
+    a.twitter-share:hover, a.twitter-share:focus {
+      background-color: #1590BF;
+    }
+    a.facebook-share:hover, a.facebook-share:focus {
+      background-color: #324C85;
+    }
+    a.dribbble-share:hover, a.dribbble-share:focus {
+      background-color: #d34a79;
+    }
+    a.github-share:hover, a.github-share:focus {
+      background-color: #ccc;
+      color: #000;
+    }
+    a.linkedin-share:hover, a.linkedin-share:focus {
+        background-color: #008dd7;
+    }
+    a {
+      color: $txt-light;
+    }
+    a:hover {
+      color: $txt-light;
+    }
+    a i {
+      margin-top: 20px;
+    }
+  }
+  .footer-links {
+    margin: 120px 0 120px 0;
+  }
+}

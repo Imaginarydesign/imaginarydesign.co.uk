@@ -1,0 +1,154 @@
+/* ==========================================================================
+Hero
+========================================================================== */
+.hero {
+  min-height: 650px;
+  background: url('../images/hero-adam.jpg') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+  .down-arrow a {
+    color: $txt-light;
+  }
+  h1 {
+    color: $txt-light;
+    font-weight: 700;
+    text-transform: uppercase;
+    // margin-bottom: 40px;
+  }
+  p.intro {
+    color: $txt-light;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 470px;
+  }
+  .hero-content {
+    padding-top: 7%;
+  }
+}
+.navigation {
+  transition: all 300ms ease-in-out;
+  // position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+// .fixed {
+//   position: fixed;
+//   background-color: #232731;
+//   z-index: 999;
+//   width: 100%;
+// }
+header {
+  padding: 50px 0;
+  // border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  transition: padding 300ms ease-in-out;
+
+  a {
+    color: $txt-light;
+    text-transform: uppercase;
+    font-size: $nav-font-size;
+
+    &.login {
+      margin-right: 20px;
+    }
+  }
+  .logo {
+    display: inline-block;
+  }
+  ul.primary-nav {
+    margin: 0 0 0 75px;
+    padding: 0;
+
+    li {
+      display: inline;
+
+      a {
+        color: $txt-light;
+        padding-right: 25px;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+      &:last-child a {
+        padding-right: 0px;
+      }
+    }
+  }
+  ul.member-actions {
+    li {
+      display: inline;
+
+      a {
+        color: $txt-light;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+  .header-nav {
+    display: inline-block;
+  }
+  .member-actions {
+    position: absolute;
+    right: 0;
+    top: 41px;
+    transition: all 300ms ease-in-out;
+  }
+}
+.down-arrow {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ==========================================================================
+.hero-strip
+========================================================================== */
+.hero-strip {
+  // margin-top: 120px;
+  background: #333844 url("../images/polygonal-bg.jpg") no-repeat center center;
+  padding-bottom: 190px;
+  position: relative;
+
+  i {
+    font-family: $accent-font;
+    font-weight: 300;
+    font-size: 25px;
+    color: #F69D52;
+    vertical-align: top;
+    margin-left: -8px;
+    font-style: normal;
+  }
+  h2 {
+    color: #fff;
+    margin: 0 0 20px 0;
+  }
+  p {
+    color: #ACB1B4;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+  .logo-placeholder {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: -285px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

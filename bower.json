@@ -1,0 +1,31 @@
+{
+  "name": "jekyll-and-hyde",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Adam Koniuszewski"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jekyll",
+    "bootstrap",
+    "sass",
+    "gulp",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/Imaginarydesign/jekyll-and-hyde",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "font-awesome": "^4.5.0",
+    "isotope": "^2.2.2"
+  }
+}

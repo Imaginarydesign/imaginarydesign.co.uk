@@ -1,0 +1,99 @@
+/* ==========================================================================
+Features-stack
+========================================================================== */
+.features {
+  position: relative;
+
+  p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  h3 {
+    margin: 0 0 20px 0;
+  }
+  span.icon {
+    font-size: 35px;
+    color: $accent-color;
+    font-weight: bold;
+  }
+  .feature-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 0 0 0;
+    margin-right: 20px;
+    width: 35px;
+  }
+  .feature-content {
+    display: inline-block;
+    width: 75%;
+  }
+  .intro-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 0 0 0;
+    margin-right: 20px;
+  }
+  .intro-content {
+    display: inline-block;
+    width: 80%;
+  }
+  ul.features-stack {
+    margin-top: 50px;
+  }
+  ul.features-stack li {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px $keyline-color;
+  }
+  ul.features-stack li:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+  .ipad-wrap {
+    width: 706px;
+    height: 1002px;
+    background: url("../images/ipad-device.png") no-repeat center center;
+    z-index: 1;
+  }
+  .iphone-wrap {
+    width: 304px;
+    height: 620px;
+    background: url("../images/iphone6.png") no-repeat center center;
+    position: absolute;
+    left: 530px;
+    bottom: 129px;
+    z-index: 2;
+  }
+  .device-showcase {
+    position: absolute;
+    bottom: -365px;
+    right: 61%;
+  }
+}
+.features .responsive-feature-img, .features-extra .responsive-feature-img {
+  display: none;
+}
+.devices {
+  position: relative;
+}
+
+/* ==========================================================================
+.features-extra
+========================================================================== */
+.features-extra {
+  position: relative;
+  z-index: 3;
+
+  .btn {
+    margin-top: 20px;
+  }
+  .macbook-wrap {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../images/macbook-pro.png") no-repeat center center;
+    top: 114px;
+    z-index: 4;
+    left: 50%;
+  }
+}
