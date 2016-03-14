@@ -9,7 +9,6 @@ Icon?
 Thumbs.db
 
 # Ignore for Jekyll projects #
-assets
 node_modules
 bower_components
 .tmp
