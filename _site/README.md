@@ -15,6 +15,13 @@ Hosted at [imaginarydesign.co.uk](http://imaginarydesign.co.uk/).
 ## Who This Repo is For
 This repo is mostly for me. Feel free to poke around to get ideas for your next Jekyll project.
 
+## Setup
+
+1. Clone it
+1. Install node dependencies by `npm install`
+2. Install bower dependecies by `bower install`
+3. Run `gulp`
+
 ## Workflow
 
 1. Develop normally, committing entire repository (with source files) to default **master** branch.
