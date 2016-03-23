@@ -16,6 +16,7 @@
 @import "partials/buttons";
 @import "partials/typography";
 @import "partials/features";
+@import "partials/casestudies";
 @import "partials/footer";
 
 .portfolio {
@@ -211,27 +212,6 @@
 
   .last {
     margin: 0;
-  }
-
-  .features {
-    padding-bottom: 0;
-  }
-
-  .features .device-showcase,
-  .features-extra .macbook-wrap {
-    display: none;
-  }
-
-  .features .responsive-feature-img,
-  .features-extra .responsive-feature-img {
-    display: block;
-    width: 85%;
-    margin: 15% auto 0;
-  }
-
-  .features .responsive-feature-img img,
-  .features-extra .responsive-feature-img img {
-    width: 100%;
   }
 
   .hero-strip {
