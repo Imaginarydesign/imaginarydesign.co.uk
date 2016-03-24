@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: latest
 title: Portfolio
 description: Manchester-based designer and front-end web developer specialising in high quality responsive websites and exceptional user experience.
 ---
@@ -11,9 +11,15 @@ description: Manchester-based designer and front-end web developer specialising 
     <div class="row">
       <div class="col-md-4 col-md-offset-8">
         <div class="case-study-description">
+
           <h3>{{ casestudy.title }}</h3>
           <p class="lead">{{ casestudy.category }}</p>
+          <p class="text-muted"><small>{{ casestudy.date }}</small></p>
           <p>{{ casestudy.description }}</p>
+          <p><small>Stack: {{ casestudy.stack }}</small></p>
+          {% if casestudy.url %}
+          <p>Go to <a href="{{ casestudy.url }}">{{ casestudy.title }}</a></p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -21,44 +27,3 @@ description: Manchester-based designer and front-end web developer specialising 
   <div class="case-study-img"><img src="{{ casestudy.image }}" alt="{{ casestudy.title }}"></div>
 </section>
 {% endfor %}
-
-<!-- Project 1 -->
-<section class="features section-padding" style="overflow: hidden;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-8">
-        <div class="feature-list">
-          <h3>Sedna will drive your product forward</h3>
-          <p>Present your product, start up, or portfolio in a beautifully modern way. Turn your visitors in to clients.</p>
-          <ul class="features-stack">
-            <li class="feature-item">
-              <div class="feature-content">
-                <h5>Universal & Responsive</h5>
-                <p>Sedna is universal and will look smashing on any device.</p>
-              </div>
-            </li>
-            <li class="feature-item">
-              <div class="feature-content">
-                <h5>User Centric Design</h5>
-                <p>Sedna takes advantage of common design patterns, allowing for a seamless experience for users of all levels.</p>
-              </div>
-            </li>
-            <li class="feature-item">
-              <div class="feature-content">
-                <h5>Clean reusable code</h5>
-                <p>Download and re-use the Sedna open source code for any other project you like.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="device-showcase" style="bottom: -255px; right: 50%;">
-    <div class="devices">
-      <div class="ipad-wrap wp1"></div>
-      <div class="iphone-wrap wp2"></div>
-    </div>
-  </div>
-  <div class="responsive-feature-img"><img src="/assets/images/devices.png" alt="responsive devices"></div>
-</section>

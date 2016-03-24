@@ -31,6 +31,14 @@ Hero
     padding-top: 7%;
   }
 }
+.hero#hero-latest {
+  background: url('../images/hero-wireframes.jpg') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
 .navigation {
   transition: all 300ms ease-in-out;
   // position: fixed;
