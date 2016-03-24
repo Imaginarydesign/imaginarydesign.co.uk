@@ -1,0 +1,29 @@
+---
+layout: latest
+title: Portfolio
+description: Manchester-based designer and front-end web developer specialising in high quality responsive websites and exceptional user experience.
+---
+
+<!-- Project 1 -->
+{% for casestudy in site.data.casestudies %}
+<section class="case-study section-padding {% cycle 'section-grey', '' %}" style="overflow: hidden;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-8">
+        <div class="case-study-description">
+
+          <h3>{{ casestudy.title }}</h3>
+          <p class="lead">{{ casestudy.category }}</p>
+          <p class="text-muted"><small>{{ casestudy.date }}</small></p>
+          <p>{{ casestudy.description }}</p>
+          <p><small>Stack: {{ casestudy.stack }}</small></p>
+          {% if casestudy.url %}
+          <p>Go to <a href="{{ casestudy.url }}">{{ casestudy.title }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="case-study-img"><img src="{{ casestudy.image }}" alt="{{ casestudy.title }}"></div>
+</section>
+{% endfor %}

@@ -1,0 +1,43 @@
+- title: Gallery Direct
+  date: March 2016 - ongoing
+  category: Website Design & Development
+  description: Established in 1973 as a small family run business, Gallery Direct has grown to become the leading British based designer, manufacturer and worldwide distributor of furniture, home décor and accessories. Previous tired site went through a strategic and specific design process. The new website is now mobile responsive, making it accessible on all devices and it provides customers with a user friendly experience.
+  image: /assets/images/case-studies/gallery.png
+  stack: PHP, MySQL, OpenCart, Javascript
+  url: http://gallerydirect.serv1.co.uk/
+  active: true
+
+- title: Point Control
+  date: October 2015 - ongoing
+  category: Design and Development
+  description: Point Control, one of the UK’s leading specialists providing a complete PUR and perfect binding service to a wide range of organisations including print management consultants, printers, print design houses and digital printing specialists. Their new application enables to manage quotes via the web app interface. The in application reporting now helps them to convert more leads as the new system now allows them to monitor enquiries and customers more closely.
+  image: /assets/images/case-studies/point-control.png
+  stack: PHP, MySQL, Laravel, Vue.js, Git
+  active: true
+
+- title: Grass Roots Camping
+  date: March 2015
+  category: Design and Development
+  description: Grass Roots Camping is a technology start-up with ambition and growth plans to become the UK’s number one campsite search portal. My job was to help design and build a scalable web application which enabled customers to find destination campsites based on their location anywhere in the world. Grass Roots Camping are now represented by a modern, competitive, cutting edge design in comparison to most other camp-site search websites currently active on the web.
+  image: /assets/images/case-studies/grass-roots.png
+  stack: PHP, MySQL, Laravel, Javascript, Git
+  url: http://grassrootscamping.co.uk/
+  active: true
+
+- title: Mags UK
+  date: December 2015
+  category: Design
+  description: Mags UK is the official source for back issues of magazines for many of the top UK magazine publishers. The brief was to replace the custom website which was dated and unmaintainable and bring the site over to the Magento platform. The website had to have additional features within the system which enabled visitors have a better experience on site. Their existing website needed redesigning inline with the additional extensions and features which were put in place to improve customer usability. Throughout the design process it was paramount to constantly update the client and take in all of their feedback to give them a flawless finished website.
+  image: /assets/images/case-studies/magsuk.png
+  stack: PHP, MySQL, Magento, Javascript
+  url: http://mags-uk.com/
+  active: true
+
+- title: BrightRED
+  date: February 2015
+  category: Website Design and Development
+  description: A responsive and professional website where the quality of work and staff totally reflect in the design and look of the website. The site was created on ExpressionEngine which meant using the content management system is a breeze for any admin users, the site is also a lot faster than previously.
+  image: /assets/images/case-studies/brightred.png
+  stack: PHP, MySQL, ExpressionEngine, Javascript
+  url: https://www.brightred.digital/
+  active: true
