@@ -8,6 +8,7 @@ var clean       = require('gulp-clean');
 var minifyCSS   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 var concat      = require('gulp-concat');
+var hashsum     = require("gulp-hashsum");
 // var imagemin    = require('gulp-imagemin');
 
 var messages = {
@@ -57,6 +58,7 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(minifyCSS())
         .pipe(rename('main.min.css'))
+        .pipe(hashsum({filename: './_data/cache_bust_css.yml', hash: 'md5'}))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
@@ -79,6 +81,7 @@ gulp.task('js', function() {
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
+        .pipe(hashsum({filename: './_data/cache_bust_js.yml', hash: 'md5'}))
         .pipe(gulp.dest('_site/assets/js'))
         .pipe(browserSync.reload({ stream: true }))
         .pipe(gulp.dest('assets/js'));
