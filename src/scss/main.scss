@@ -16,6 +16,7 @@
 @import "partials/buttons";
 @import "partials/typography";
 @import "partials/features";
+@import "partials/services";
 @import "partials/casestudies";
 @import "partials/footer";
 
@@ -218,47 +219,9 @@
     margin-top: 0;
   }
 
-  .blog-intro .leftcol {
-    padding: 0 15px;
-    margin-bottom: 15px;
-    border-right: none;
-  }
-
-  .blog-intro .rightcol {
-    padding: 0 20px;
-  }
-
-  footer .social-share {
-    display: none;
-  }
-
-  footer .footer-links {
-    margin: 120px 0 120px 0;
-  }
 }
 
-@media screen and (max-width:640px) {
-    footer ul.footer-group {
-        border-top: none;
-    }
 
-    footer ul.footer-group li a {
-        font-size: 13px;
-        text-transform: uppercase;
-        padding: 20px 0;
-        display: block;
-        border-bottom: dashed 1px #4E566C;
-    }
-
-    footer ul.footer-group li {
-        display: block;
-    }
-
-    footer .footer-links {
-        margin: 50px 0 50px 0;
-    }
-
-}
 
 .available {
   background-color: #fff;
