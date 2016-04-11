@@ -18,6 +18,12 @@ section.features, section.blog-intro, section.blog {
   padding: $section-padding;
 }
 
+@media screen and (max-width:768px) {
+  .section-padding {
+    padding: 50px 0;  
+  }
+}
+
 .section-image {
   padding: 100px 0 120px 0;
   background-position: center center;
