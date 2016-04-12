@@ -135,3 +135,36 @@ footer {
     margin: 120px 0 120px 0;
   }
 }
+
+@media screen and (max-width:991px) {
+  footer .social-share {
+    display: none;
+  }
+
+  footer .footer-links {
+    margin: 120px 0 120px 0;
+  }
+}
+
+@media screen and (max-width:640px) {
+    footer ul.footer-group {
+        border-top: none;
+    }
+
+    footer ul.footer-group li a {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 20px 0;
+        display: block;
+        border-bottom: dashed 1px #4E566C;
+    }
+
+    footer ul.footer-group li {
+        display: block;
+    }
+
+    footer .footer-links {
+        margin: 50px 0 50px 0;
+    }
+
+}

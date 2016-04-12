@@ -15,7 +15,7 @@ Hero
   }
   h1 {
     color: $txt-light;
-    font-weight: 700;
+    font-weight: 300;
     text-transform: uppercase;
     // margin-bottom: 40px;
   }
@@ -158,5 +158,11 @@ header {
     bottom: -285px;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width:991px) {
+  .hero .hero-content {
+    padding-top: 15%;
   }
 }
