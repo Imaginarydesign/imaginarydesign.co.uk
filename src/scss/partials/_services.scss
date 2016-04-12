@@ -1,0 +1,21 @@
+// Services
+
+.service {
+  position: relative;
+  background: #fff;
+}
+.service.section-grey {
+  background-color: #F3F4F8;
+}
+
+.services-img-right {
+  position: absolute;
+  left: 55%;
+  top: 70px;
+}
+
+.services-img-left {
+  position: absolute;
+  right: 50%;
+  top:70px;
+}

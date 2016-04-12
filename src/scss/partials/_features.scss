@@ -98,6 +98,11 @@ Features-stack
   }
 }
 
+.feature-list ul li {
+  padding-bottom: 7px;
+  // font-weight: 700;
+}
+
 @media screen and (max-width:991px) {
     .features {
       padding-bottom: 0;

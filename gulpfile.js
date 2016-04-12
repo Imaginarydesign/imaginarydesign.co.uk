@@ -8,7 +8,8 @@ var clean       = require('gulp-clean');
 var minifyCSS   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 var concat      = require('gulp-concat');
-var imagemin    = require('gulp-imagemin');
+var hashsum     = require("gulp-hashsum");
+// var imagemin    = require('gulp-imagemin');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -57,6 +58,7 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(minifyCSS())
         .pipe(rename('main.min.css'))
+        .pipe(hashsum({filename: './_data/cache_bust_css.yml', hash: 'md5'}))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
@@ -79,6 +81,7 @@ gulp.task('js', function() {
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
+        .pipe(hashsum({filename: './_data/cache_bust_js.yml', hash: 'md5'}))
         .pipe(gulp.dest('_site/assets/js'))
         .pipe(browserSync.reload({ stream: true }))
         .pipe(gulp.dest('assets/js'));
@@ -86,11 +89,11 @@ gulp.task('js', function() {
 
 gulp.task('img', function() {
     gulp.src('src/images/**/*.+(png|jpeg|jpg|gif|svg)')
-        .pipe(imagemin())
+        // .pipe(imagemin())
         .pipe(gulp.dest('_site/assets/images'))
         .pipe(browserSync.reload({ stream: true }))
         .pipe(gulp.dest('assets/images'));
-})
+});
 
 /**
  * Watch scss files for changes & recompile
@@ -99,6 +102,7 @@ gulp.task('img', function() {
 gulp.task('watch', function () {
     gulp.watch('src/scss/**/*.scss', ['sass']);
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
+    gulp.watch('src/images/**/*.+(png|jpeg|jpg|gif|svg)', ['img']);
     gulp.watch('src/js/*.js', ['js']);
 });
 
