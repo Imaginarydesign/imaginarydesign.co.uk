@@ -70,6 +70,15 @@ header {
   }
   .logo {
     display: inline-block;
+    min-width: 200px;
+    img {
+      float: left;
+      padding-right: 10px;
+      margin-top: -3px;
+    }
+    a:hover {
+      color: #fff;
+    }
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
