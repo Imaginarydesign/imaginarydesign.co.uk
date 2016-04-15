@@ -3,7 +3,8 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 650px;
-  background: url('../images/hero-adam-0.jpg') center center;
+  // background: url('../images/hero-adam-0.jpg') center center;
+  background: #393F4E;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,11 +17,11 @@ Hero
   h1 {
     color: $txt-light;
     font-weight: 300;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     // margin-bottom: 40px;
   }
   p.intro {
-    color: $txt-light;
+    color: #AEB0B2;
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 80px;
@@ -63,13 +64,24 @@ header {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
-
     &.login {
       margin-right: 20px;
     }
   }
   .logo {
     display: inline-block;
+    min-width: 200px;
+    img {
+      float: left;
+      padding-right: 10px;
+      margin-top: -3px;
+    }
+    a:hover {
+      color: #fff;
+    }
+    .title {
+      color: #AEB0B2;
+    }
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -79,7 +91,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: #AEB0B2;
         padding-right: 25px;
 
         &:hover {
