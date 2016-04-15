@@ -1,6 +1,6 @@
 // Layout variables partial
 
-$section-padding: 80px 0;
+$section-padding: 100px 0;
 
 section.intro, section.features-extra, section.sign-up {
   background: $section-light;
@@ -18,8 +18,14 @@ section.features, section.blog-intro, section.blog {
   padding: $section-padding;
 }
 
+@media screen and (max-width:768px) {
+  .section-padding {
+    padding: 50px 0;  
+  }
+}
+
 .section-image {
-  padding: 70px 0 90px 0;
+  padding: 100px 0 120px 0;
   background-position: center center;
   width: 100%;
   background-size: cover;

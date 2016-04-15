@@ -21,7 +21,8 @@
     <meta name="twitter:creator" content="@Imaginarydesign" />
 
     <link rel="shortcut icon" href="/favicon.png">
-    <link rel="stylesheet" href="/assets/css/main.min.css?ver=71b99504bc">
+    <link rel="apple-touch-icon" href="/assets/images/touch-logo.png">
+    <link rel="stylesheet" href="/assets/css/main.min.css?ver=d918780b15">
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,12 +63,12 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content">
                     <h1>Hello I'm Adam</h1>
-                    <p class="intro">I'm a Manchester-based designer and front-end developer. I help passionate companies grow through design and code.</p>
+                    <p class="intro">I'm a Manchester-based designer and front-end developer. I help businesses grow through design and code.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
+    <!-- <div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div> -->
 </section>
 
     <!-- PAGE CONTENT
@@ -76,20 +77,23 @@
 <section class="section-grey section-padding hidden-xs" style="padding: 50px 0;">
   <div class="container">
     <div class="row">
-      <div class="col-sm-2 col-sm-offset-1">
-        <img class="img-responsive" src="assets/images/software/wp_103_43.png" alt="Wordpress" style="margin: auto;">
+      <div class="col-sm-2">
+        <img class="img-responsive" src="assets/images/software/wp_103_43.png" alt="Wordpress">
       </div>
       <div class="col-sm-2">
-        <img class="img-responsive" src="assets/images/software/opencart_103_43.png" alt="Opencart" style="margin: auto;">
+        <img class="img-responsive" src="assets/images/software/opencart_103_43.png" alt="Opencart">
       </div>
       <div class="col-sm-2">
-        <img class="img-responsive" src="assets/images/software/laravel_103_43.png" alt="Laravel" style="margin: auto;">
+        <img class="img-responsive" src="assets/images/software/laravel_103_43.png" alt="Laravel">
       </div>
       <div class="col-sm-2">
-        <img class="img-responsive" src="assets/images/software/ee_103_43.png" alt="ExpressionEngine" style="margin: auto;">
+        <img class="img-responsive" src="assets/images/software/ee_103_43.png" alt="ExpressionEngine">
       </div>
       <div class="col-sm-2">
-        <img class="img-responsive" src="assets/images/software/jquery_103_43.png" alt="jQuery" style="margin: auto;">
+        <img class="img-responsive" src="assets/images/software/jquery_103_43.png" alt="jQuery">
+      </div>
+      <div class="col-sm-2">
+        <img class="img-responsive" src="assets/images/software/angular_103_43.png" alt="Angular">
       </div>
     </div>
   </div>
@@ -98,66 +102,95 @@
 <!-- $INTRO -->
 <section class="section-padding" id="about">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <h2>About Myself</h2>
-      <p>I'm Adam Koniuszewski (Con-u-shev-skee). But you can call me simply just Adam. I have over 15 years of experience working as a lead designer and front end developer. My expertise has led to me winning awards highlighting my high quality of work.</p>
-    </div>
-  </div>
-</section>
-
-<!-- $WHAT I DO -->
-<section class="section-image" id="services">
-  <div class="container">
     <div class="row">
-      <div class="col-sm-5 col-sm-offset-7">
-        <div class="feature-list">
-          <ul class="features-stack">
-            <li class="feature-item">
-              <div class="feature-content">
-                <h3>Web Design & UI</h3>
-                <p>Users evaluate a design in 50 milliseconds. You need people to take your brand seriously. I will help you make those first few milliseconds count.</p>
-              </div>
-            </li>
-            <li class="feature-item">
-              <div class="feature-content">
-                <h3>Web development</h3>
-                <p>I believe in goals, not tools. Laravel is my favourite PHP Framework but I have specialist working knowledge of a raft of different software platforms incuding Wordpress, Opencart, ExpressionEngine.</p>
-              </div>
-            </li>
-            <li class="feature-item">
-              <div class="feature-content">
-                <h3>Brand Identity</h3>
-                <p>Your brand is your business. The visual system that expresses your personality, communicates your values, and distinguishes you from your competitors. Let's make it special.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <div class="col-sm-4">
+        <h3><i class="fa fa-desktop" style="color: #FF5274; font-size: 36px;"></i></h3>
+        <h3>Webdesign & UI</h3>
+        <p>Users evaluate a design in 50 milliseconds. You need people to take your brand seriously. I will help you make those first few milliseconds count.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><i class="fa fa-code" style="color: #FF5274; font-size: 36px;"></i></h3>
+        <h3>Web development</h3>
+        <p>I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website or an app as your company grows.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><i class="fa fa-pencil" style="color: #FF5274; font-size: 36px;"></i></h3>
+        <h3>Digital Strategy</h3>
+        <p>I’ll work with you to understand your business and make sure everything we do aligns with your goals.</p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- $SERVICES: WEBDESIGN & UI -->
+<section class="service section-padding section-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 col-sm-offset-7">
+        <div class="feature-list">
+          <h2>Beautiful webdesign & UI</h2>
+          <p>I believe that good design is more than how it looks. As one famous person said “Most people make the mistake of thinking design is what it looks like. That’s not what we think design is. Design is how it works”. I'll help you make it special.</p>
+          <ul>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Tailored to your needs</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> High quality original designs</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Competitors research</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Wireframing</li>
+          </ul>
+          <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#x64;&#97;&#109;&#64;&#105;&#x6d;&#97;&#x67;&#x69;&#110;&#97;&#114;&#x79;&#100;&#101;&#115;&#x69;&#x67;&#110;&#x2e;&#99;&#x6f;&#46;&#x75;&#x6b;" class="btn btn-ghost btn-accent btn-small" style="margin-top: 30px;">Hire me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="services-img-left hidden-xs"><img src="assets/images/showcase-grid.png" alt="Beautiful webdesign & UI"></div>
+</section>
   
-<!-- $SKILLS -->
-<section class="section-image" id="devices">
+<!-- $SERVICES: WEB DEVELOPMENT -->
+<section class="service section-padding">
   <div class="container">
     <div class="row">
       <div class="col-sm-5">
         <div class="feature-list">
-          <h3>Skills</h3>
-          <p>I have worked as a front-end developer and lead designer since 2000 in a variety of in-house and freelance roles for print publications, agencies, start-ups, and private clients.</p>
-          <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website or an app as your company grows.</p>
-          <ul class="list-inline" style="margin-bottom: 30px;">
+          <h2>Powerful web development</h2>
+          <p>I believe in goals, not tools. Laravel is my favourite PHP Framework but I have specialist working knowledge of a raft of different software platforms incuding Wordpress, Opencart, ExpressionEngine.</p>
+          <ul>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Well-documented and easily maintainable code</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Latest trends and best practices</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Ecommerce expertise</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Transparent process</li>
+          </ul>
+          <ul class="list-inline" style="margin-top: 30px;">
             <li><img class="img-responsive" src="assets/images/stack/git_60_60.png" alt="Git"></li>
             <li><img class="img-responsive" src="assets/images/stack/sass_60_60.png" alt="Sass"></li>
             <li><img class="img-responsive" src="assets/images/stack/node_60_60.png" alt="Node"></li>
             <li><img class="img-responsive" src="assets/images/stack/gulp_60_60.png" alt="Gulp"></li>
           </ul>
-          <a href="#" class="btn btn-ghost btn-accent btn-small">Hire me</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="macbook-pro hidden-xs"><img src="assets/images/devices-brm.png" alt="responsive devices"></div>
+  <div class="services-img-right hidden-xs"><img src="assets/images/showcase-subl.png" alt="Powerful web development"></div>
+</section>
+
+<!-- $SERVICES: DIGITAL STRATEGY -->
+<section class="service section-padding section-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 col-sm-offset-7">
+        <div class="feature-list">
+          <h2>Digital Strategy</h2>
+          <p>I’ll work with you every step of the way to make sure your business’ digital strategy is a success.</p>
+          <ul>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Competitive Audits</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Roadmapping</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Goals Assessment</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Experience Planning</li>
+          </ul>
+          <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#x64;&#97;&#109;&#64;&#105;&#x6d;&#97;&#x67;&#x69;&#110;&#97;&#114;&#x79;&#100;&#101;&#115;&#x69;&#x67;&#110;&#x2e;&#99;&#x6f;&#46;&#x75;&#x6b;" class="btn btn-ghost btn-accent btn-small" style="margin-top: 30px;">Hire me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="services-img-left hidden-xs"><img src="assets/images/showcase-trello.png" alt="Digital Strategy"></div>
 </section>
   
 <!-- $TESTIMONIAL -->
@@ -170,16 +203,24 @@
   </div>
 </section>
 
-<!-- $PROCESS -->
+<!-- $SERVICE: PERSONAL ADVICE -->
 <section class="section-image" id="helping">
   <div class="container">
     <div class="row">
       <div class="col-sm-5">
-        <h3>I believe that good design is more than how it looks</h3>
-        <p>As one famous person said “Most people make the mistake of thinking design is what it looks like. That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works.”</p>
-      </div>
-    </div>
-  </div>
+        <div class="feature-list">
+          <h2>Digital Training</h2>
+          <p>I have worked as a front-end developer and lead designer since 2000 in a variety of in-house and freelance roles for print publications, agencies, start-ups, and private clients. I can help you with things like:</p>
+          <ul>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> GIT training</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Design advice</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Laravel training</li>
+            <li><i class="fa fa-check-circle-o" style="color: #FF5274;"></i> Javascript training</li>
+          </ul>
+       </div>
+     </div>
+   </div>
+ </div>
 </section>
 
 <!-- $PORTFOLIO -->
@@ -187,8 +228,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h2>Over the shoulder</h2>
-        <p>A quick, over-the-shoulder view of work in progress…</p>
+        <h3>A quick, over-the-shoulder view of work currently in progress…</h3>
+        <!-- <p>A quick, over-the-shoulder view of work in progress…</p> -->
       </div>
     </div>
   </div>
@@ -224,27 +265,7 @@
   </div>
 </section>
 
-<!-- $CLIENTS -->
-<section class="section-padding section-grey">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <img src="assets/images/laravel.png" alt="Laravel" class="img-responsive" style="margin: auto;">
-      </div>
-      <div class="col-sm-3">
-        <img src="assets/images/wp.png" alt="Wordpress" class="img-responsive" style="margin: auto;">
-      </div>
-      <div class="col-sm-3">
-        <img src="assets/images/opencart.png" alt="Opencart" class="img-responsive" style="margin: auto;">
-      </div>
-      <div class="col-sm-3">
-        <img src="assets/images/angular.png" alt="Angular" class="img-responsive" style="margin: auto;">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- $Contact -->
+<!-- $CONTACT -->
 <section class="section-padding" id="contact">
   <div class="container">
     <div class="row">
