@@ -4,7 +4,7 @@ Hero
 .hero {
   min-height: 650px;
   // background: url('../images/hero-adam-0.jpg') center center;
-  background: #3C4753;
+  background: #393F4E;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@ Hero
     // margin-bottom: 40px;
   }
   p.intro {
-    color: $txt-light;
+    color: #AEB0B2;
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 80px;
@@ -91,7 +91,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: #AEB0B2;
         padding-right: 25px;
 
         &:hover {
