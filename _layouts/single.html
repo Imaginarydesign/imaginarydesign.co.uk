@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="top">
+
+    <div class="available">
+      <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#x64;&#97;&#109;&#64;&#105;&#x6d;&#97;&#x67;&#x69;&#110;&#97;&#114;&#x79;&#100;&#101;&#115;&#x69;&#x67;&#110;&#x2e;&#99;&#x6f;&#46;&#x75;&#x6b;">Available</a>
+    </div>
+    
+    <!-- HERO
+    ================================================== -->
+    {% include hero_single.html %}
+
+    <!-- PAGE CONTENT
+    ======================================= -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row article-single">
+          <div class="col-sm-10 col-sm-offset-1">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    {% include footer.html %}
+
+    <!-- SCRIPTS
+    ================================================== -->
+    {% include scripts.html %}
+
+  </body>
+</html>
