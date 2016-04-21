@@ -31,3 +31,18 @@ h5 {
     text-transform: uppercase;
     font-weight: $semibold;
 }
+
+// Articles
+.article-index {
+
+  .article-stream {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+
+    h2 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+}
