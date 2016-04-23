@@ -1,6 +1,6 @@
 ---
 layout: single
-intro: Here is the intro text
+intro: 
 ---
 &#8220;Great projects start out feeling like buildings. There are architects, materials, staff, rigid timelines, permits, engineers, a structure.
 
