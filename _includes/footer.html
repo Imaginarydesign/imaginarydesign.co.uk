@@ -4,10 +4,15 @@
       <div class="col-md-7">
         <div class="footer-links">
           <ul class="footer-group">
-            <li><a href="https://twitter.com/ImaginaryDesign">Twitter</a></li>
-            <li><a href="https://dribbble.com/ImaginaryDesign">Dribbble</a></li>
-            <li><a href="https://github.com/Imaginarydesign">Github</a></li>
-            <li><a href="https://uk.linkedin.com/in/koniuszewski">LinkedIn</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#work">Work</a></li>
+            {% assign pages = site.pages %}
+            {% for p in pages order:ascending %}
+            {% if p.in-nav == true %}
+            <li {% if p.url == page.url %} class="active" {% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            <li><a href="/#contact">Contact</a></li>
           </ul>
           <p>Designed, developed, and maintained in Manchester by Adam Koniuszewski. View <a href="https://github.com/Imaginarydesign/imaginarydesign.co.uk">the source</a>.</p>
         </div>
