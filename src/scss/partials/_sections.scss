@@ -1,6 +1,6 @@
 // Layout variables partial
 
-$section-padding: 100px 0;
+$section-padding: 140px 0;
 
 section.intro, section.features-extra, section.sign-up {
   background: $section-light;
@@ -42,15 +42,6 @@ section#devices {
   position: absolute;
   left: 50%;
   top: 110px;
-}
-
-section#services {
-  background-image: url('/assets/images/desk-gradient.jpg');
-}
-@media screen and (max-width:762px) {
-  section#services {
-    background: #F3F4F8;
-  }
 }
 
 section#helping {
