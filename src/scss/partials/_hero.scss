@@ -1,8 +1,15 @@
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero {
+.hero.hero-home {
   min-height: 650px;
+  .hero-content {
+    padding-top: 7%;
+  }
+}
+
+.hero {
+  min-height: 350px;
   // background: url('../images/hero-adam-0.jpg') center center;
   background: #393F4E;
   -webkit-background-size: cover;
@@ -17,8 +24,6 @@ Hero
   h1 {
     color: $txt-light;
     font-weight: 300;
-    // text-transform: uppercase;
-    // margin-bottom: 40px;
   }
   p.intro {
     color: #AEB0B2;
@@ -27,9 +32,6 @@ Hero
     margin-bottom: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     max-width: 470px;
-  }
-  .hero-content {
-    padding-top: 7%;
   }
 }
 .hero#hero-latest {
