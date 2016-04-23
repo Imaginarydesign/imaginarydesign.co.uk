@@ -1,6 +1,6 @@
 ---
 layout: single
-intro: Here is the intro text
+intro: 
 ---
 I’ve been a professional designer for almost 10 years; I’ve freelanced for a few small businesses, worked as an in house designer for medium sized businesses and have also worked within the advertising agency circuit, which is where I currently reside on a full time basis.
 

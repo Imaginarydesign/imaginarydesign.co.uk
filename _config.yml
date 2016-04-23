@@ -8,7 +8,7 @@ url: http://imaginarydesign.co.uk
 
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-permalink: pretty
+permalink: /articles/:title/
 
 #==============================
 # File inclusions/exclusions
