@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Divya Pahwa, author for ooomph.com on &#8220;Why are we attracted to beautiful things?&#8221;:
 

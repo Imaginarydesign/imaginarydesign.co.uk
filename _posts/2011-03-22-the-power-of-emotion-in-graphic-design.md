@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 
 &#8220;All of the work we do as creatives use the abilities we have to play with emotion. To make someone laugh is to be memorable. To scare someone is to be unforgettable. To make someone’s day easier is to be seen as positive.

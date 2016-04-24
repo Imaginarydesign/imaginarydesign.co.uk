@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: 
+hidden: true
 ---
 &#8220;Great projects start out feeling like buildings. There are architects, materials, staff, rigid timelines, permits, engineers, a structure.
 

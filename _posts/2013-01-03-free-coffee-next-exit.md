@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 That&#8217;s the most effective billboard one can imagine, particularly if it&#8217;s typeset properly and if the coffee is good.
 

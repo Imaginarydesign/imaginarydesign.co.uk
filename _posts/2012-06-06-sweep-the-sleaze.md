@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 &#8220;Promising to make you look wired and magically promote your content in social networks, the Like, Retweet, and +1 buttons occupy a good spot on pretty much every page of the World Wide Web. Because of this, almost every major site and world brand is providing free advertising for Twitter and Facebook. But do these buttons work?
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 &#8220;In graphic design, nothing is what it actually is. Everything other than content is representative of something else. Additionally, much of the content is also merely representative of something other than what it actually is.&#8221;
 

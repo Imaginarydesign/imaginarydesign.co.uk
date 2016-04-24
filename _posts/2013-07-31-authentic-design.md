@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: 
+hidden: true
 ---
 The recently popularized “flat” interface style is not merely a trend. It is the manifestation of a desire for greater authenticity in design, a desire to curb visual excess and eliminate the fake and the superfluous.
 

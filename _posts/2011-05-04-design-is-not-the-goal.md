@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 “There is a well-known saying by Benjamin Franklin that states, “In this world nothing can be said to be certain, except death and taxes.” If we take that lens to interaction design, we could say: In design nothing can be said to be certain, except eye candy and following new trends. The screens are changing, but the approach, sadly enough, is not.
 

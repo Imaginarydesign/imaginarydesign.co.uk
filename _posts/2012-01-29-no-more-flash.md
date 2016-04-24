@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 &#8220;Flash is the special plugin that everyone has to install to be able to see your content. No it’s not enough that there are many ways to show your visitors content without requiring them to install extra plugins in their browser. It’s not enough that the browsers today have very good support for all kinds of cool effects and code.
 

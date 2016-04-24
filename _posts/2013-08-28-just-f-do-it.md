@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Justin Jackson, Product Manager for a profitable web app, and the host of the [Product People](http://productpeople.tv/):
 

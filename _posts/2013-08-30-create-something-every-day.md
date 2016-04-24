@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Inspiring thoughts on creativity from Stef Lewandowski, Co-founder/hacker at [Makeshift](http://makeshift.io/ "Makeshift"):
 
