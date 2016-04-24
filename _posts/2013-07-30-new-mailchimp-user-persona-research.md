@@ -1,6 +1,6 @@
 ---
 layout: single
-intro: Here is the intro text
+intro: 
 ---
 A few weeks ago, MailChimp’s DesignLab posted images of our User Personas to their blog. As Jason explained there, we wanted to find out who really uses MailChimp. It was a question posed to us by data analyst Allison last year. We could broadly generalize about our users (savvy, self-reliant, techie, motivated), but we realized that we couldn’t rattle off the four or five archetypical MailChimp users.
 

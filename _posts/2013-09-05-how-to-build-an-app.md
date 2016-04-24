@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Jamie Kosoy from [Arbitrary](http://arbitrary.io/ "Arbitrary") and Dan Mall from [SuperFriendly](http://superfriend.ly/) decided that they want to build an app together. They&#8217;ve also decided to work entirely [in public](http://chriscoyier.net/2012/09/23/working-in-public/ "Work in public"):
 
