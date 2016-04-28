@@ -72,6 +72,7 @@ header {
   }
   .logo {
     display: inline-block;
+    margin-top: -4px;
     min-width: 200px;
     img {
       float: left;
@@ -178,5 +179,10 @@ header {
 @media screen and (max-width:991px) {
   .hero .hero-content {
     padding-top: 15%;
+  }
+}
+@media screen and (max-width:340px) {
+  .hero h1 {
+    font-size: 48px;
   }
 }
