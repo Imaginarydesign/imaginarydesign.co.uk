@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 If I could fix one problem across the majority of the clients that I work with, it would be their inability to prioritise.
 

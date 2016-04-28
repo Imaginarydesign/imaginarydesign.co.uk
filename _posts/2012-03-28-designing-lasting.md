@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 &#8220;Designers control the world because they shape how the world is seen. Many of us don’t take that responsibility seriously because we have been doing this for a while and don’t always step outside of our own world.
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 
 Back in the early 1980s, Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” Aware that he was a significant contributor to that world, he asked himself an important question: is my design good design?

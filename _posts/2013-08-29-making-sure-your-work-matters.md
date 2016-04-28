@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Russ Starke, experience designer from Philadelphia:
 

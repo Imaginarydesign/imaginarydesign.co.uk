@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Nathan Kontny, Founder of two YC companies: Inkling and Cityposh, shares his method to validate startup ideas:
 

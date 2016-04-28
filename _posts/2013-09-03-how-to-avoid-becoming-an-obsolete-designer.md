@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 Eric Karjaluoto, Creative Director and a founding partner of the creative agency smashLAB:
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 intro: Here is the intro text
+hidden: true
 ---
 The most important part of responsive web design is that, no matter what the viewport width, the content is accessible in an optimum display. The _best_ responsive designs are those that allow you to go from one optimised display to another, but with the feeling that these experiences are part of a greater product whole.
 
