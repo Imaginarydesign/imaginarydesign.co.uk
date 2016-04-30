@@ -1,8 +1,10 @@
 ---
 layout: single
-title: A Day In The Life Of Designer and Front-end developer 
-intro: What my typical day look like
-hidden: true
+meta-title: About | Adam Koniuszewski, UI/UX Designer & Front-End Developer
+title: About
+description: Manchester-based designer and front-end web developer specialising in high quality responsive websites and exceptional user experience.
+intro: A Day In The Life Of Designer and Front-end developer
+in-nav: true
 ---
 
 I’m Adam Koniuszewski, and I am designer/frond-end developer. I live in Manchester with my wife, Ruth, and my 2 daughters, Florence(4) and Magdalena(1). Ultimately, all of my work is all about helping businesses grow through design and code.
@@ -44,3 +46,4 @@ At work I use [Basecamp](https://basecamp.com/) for project management. [Zendesk
 **10pm-11pm**- Work on side projects. Do a few lessons of current course(React and Vue.js at the moment). Prepare for the next day. 
 
 **12pm**- Bedtime.
+
