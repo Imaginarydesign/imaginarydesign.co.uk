@@ -1,0 +1,24 @@
+---
+layout: list
+title: Code
+meta-title: Code | Adam Koniuszewski, UI/UX Designer & Front-End Developer
+prefix: Tagged in
+intro: 
+---
+
+<section class="section-padding article-index">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {% for post in site.resources %}
+          {% if post.categories contains 'code' %}
+          <div class="article-stream">
+            <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

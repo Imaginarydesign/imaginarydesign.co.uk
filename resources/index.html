@@ -1,0 +1,30 @@
+---
+layout: list
+title: Resources
+meta-title: Resources | Adam Koniuszewski, UI/UX Designer & Front-End Developer
+description: 
+intro: Short intro to resources page
+in-nav: true
+---
+
+<section class="section-padding article-index">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {% for post in site.resources %}
+          {% if post.hidden != true %}
+          <div class="article-stream">
+            <ul class="list-inline meta-categories">
+            {% for category in post.categories %}
+            <li><a href="{{ category }}">{{ category | capitalize }}</a></li>
+            {% endfor %}
+            </ul>
+            <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
