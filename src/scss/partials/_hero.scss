@@ -180,6 +180,9 @@ header {
   .hero .hero-content {
     padding-top: 15%;
   }
+  .hero.hero-list .hero-content {
+    padding-top: 7px;
+  }
 }
 @media screen and (max-width:340px) {
   .hero h1 {

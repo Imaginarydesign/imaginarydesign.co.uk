@@ -17,6 +17,9 @@ section.features, section.blog-intro, section.blog {
 .section-padding {
   padding: $section-padding;
 }
+.section-padding.article-index {
+    padding: 70px 0;
+}
 
 @media screen and (max-width:768px) {
   .section-padding {

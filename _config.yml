@@ -10,6 +10,14 @@ markdown: redcarpet
 highlighter: pygments # or rouge or null
 permalink: /articles/:title/
 
+gems:
+  - jekyll-sitemap
+
+collections: 
+  resources:
+    output: true
+    permalink: /:collection/:title/
+
 #==============================
 # File inclusions/exclusions
 #==============================
