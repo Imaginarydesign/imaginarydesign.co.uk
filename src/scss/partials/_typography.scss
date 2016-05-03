@@ -47,6 +47,18 @@ h5 {
   
 }
 
+.article-single {
+    h2 {
+        margin-bottom: 10px;
+    }
+    ul li {
+        list-style-type: disc;
+    }
+    ol, ul {
+        margin-left: 20px;
+    }
+}
+
 .meta-categories {
     margin-bottom: 15px;
     a {
