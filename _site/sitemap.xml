@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://imaginarydesign.co.uk/about/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/design/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/code/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/commute/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/invoicer/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/laravel-5-admin-starter/</loc>
+</url>
+<url>
+<loc>http://imaginarydesign.co.uk/resources/laravel-learning-resources/</loc>
+</url>
+</urlset>

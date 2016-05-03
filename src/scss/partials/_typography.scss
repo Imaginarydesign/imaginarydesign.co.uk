@@ -46,3 +46,30 @@ h5 {
   }
   
 }
+
+.article-single {
+    h2 {
+        margin-bottom: 10px;
+    }
+    ul li {
+        list-style-type: disc;
+    }
+    ol, ul {
+        margin-left: 20px;
+    }
+}
+
+.meta-categories {
+    margin-bottom: 15px;
+    a {
+        color: $txt-primary;
+        background: rgba(0,0,0,.05);
+        padding: 5px 10px;
+        border-radius: 3px;
+
+        &:hover,
+        &:focus {
+            background: rgba(0,0,0,.1);
+        }
+    }
+}
