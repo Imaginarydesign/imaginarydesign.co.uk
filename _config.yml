@@ -7,7 +7,7 @@ description: Designer
 url: http://imaginarydesign.co.uk
 
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: null # or rouge or null
 permalink: /articles/:title/
 
 gems:
@@ -23,4 +23,4 @@ collections:
 #==============================
 
 include: [".htaccess"]
-exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src"]
+exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src", "latest.html"]
