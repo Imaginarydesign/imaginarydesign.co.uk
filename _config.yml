@@ -17,6 +17,9 @@ collections:
   resources:
     output: true
     permalink: /:collection/:title/
+  reading:
+    output: true
+    permalink: /:collection/:title/
 
 #==============================
 # File inclusions/exclusions
