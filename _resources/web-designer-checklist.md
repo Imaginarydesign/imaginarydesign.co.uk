@@ -44,4 +44,4 @@ Please [open an issue](https://github.com/Imaginarydesign/webdev-checklist/issue
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/Imaginarydesign/webdev-checklist/compare/).
 
-<p style="margin-top: 30px;"><a href="http://imaginarydesign.github.io/webdev-checklist/" target="_blank">View Source and download</a></p>
+<p style="margin-top: 30px;"><a href="http://github.com/Imaginarydesign/webdev-checklist/" target="_blank">View Source and download</a></p>
