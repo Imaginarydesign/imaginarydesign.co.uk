@@ -26,4 +26,4 @@ collections:
 #==============================
 
 include: [".htaccess"]
-exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src", "latest.html"]
+exclude: ["node_modules", "bower_components" , "gulpfile.js", "bower.json" , "package.json", "src"]
