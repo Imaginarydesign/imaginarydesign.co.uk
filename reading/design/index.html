@@ -1,0 +1,25 @@
+---
+layout: list
+title: Design
+meta-title: Design | Adam Koniuszewski, UI/UX Designer & Front-End Developer
+prefix: Tagged in
+intro: 
+---
+
+<section class="section-padding article-index">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {% for post in site.reading %}
+          {% if post.categories contains 'design' %}
+          <div class="article-stream">
+            <h2><a href="{{ post.original_url }}" target="_blank">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p style="margin-top: -15px;"><a href="{{ post.original_url }}" target="_blank" style="color: #bec3c7;"><small>{{ post.original_url }}</small></a></p>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

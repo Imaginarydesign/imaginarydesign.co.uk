@@ -101,7 +101,16 @@ gulp.task('img', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('src/scss/**/*.scss', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
+    gulp.watch([
+        '*.html',
+        'resources/**/*', 
+        'reading/**/*', 
+        '_layouts/*.html', 
+        '_posts/*', 
+        '_resources/**/*', 
+        '_reading/**/*', 
+        '_includes/*'
+        ], ['jekyll-rebuild']);
     gulp.watch('src/images/**/*.+(png|jpeg|jpg|gif|svg)', ['img']);
     gulp.watch('src/js/*.js', ['js']);
 });
