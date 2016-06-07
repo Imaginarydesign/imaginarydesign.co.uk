@@ -7,12 +7,12 @@ intro: A collection of free resources made by me
 in-nav: true
 ---
 
-<section class="section-padding article-index">
+{% for post in site.resources %}
+{% if post.hidden != true %}
+<section class="case-study section-padding {% cycle 'section-grey', '' %}" style="overflow: hidden;">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        {% for post in site.resources %}
-          {% if post.hidden != true %}
+      <div class="col-sm-4 col-sm-offset-8">
           <div class="article-stream">
             <ul class="list-inline meta-categories">
             {% for category in post.categories %}
@@ -22,9 +22,10 @@ in-nav: true
             <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
             <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
           </div>
-          {% endif %}
-        {% endfor %}
       </div>
     </div>
   </div>
+  <div class="case-study-img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
 </section>
+{% endif %}
+{% endfor %}
