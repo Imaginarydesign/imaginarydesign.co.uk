@@ -21,11 +21,12 @@ in-nav: true
             </ul>
             <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
             <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p><a href="{{post.url}}" class="btn btn-fill btn-large">Read more</a></p>
           </div>
       </div>
     </div>
   </div>
-  <div class="case-study-img"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+  <div class="case-study-img hidden-sm hidden-xs"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
 </section>
 {% endif %}
 {% endfor %}

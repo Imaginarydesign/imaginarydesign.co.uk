@@ -4,6 +4,7 @@ title: Laravel 5 Admin Starter
 meta-title: Laravel 5 Admin Starter | Resources
 categories: [code]
 description: Sample application for beginning development with Laravel 5
+image: /assets/images/resources/laravel5-starter.png
 sitemap: true
 ---
 
