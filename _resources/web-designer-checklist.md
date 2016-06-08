@@ -5,6 +5,7 @@ meta-title: Web designer's checklist | Resources
 categories: [code]
 description: Web designer's checklist app. Built with Vue.js and persistant storage.
 intro: Built with Vue.js and persistant storage.
+image: /assets/images/resources/webdev-checklist.png
 sitemap: true
 ---
 

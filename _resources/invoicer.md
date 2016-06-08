@@ -4,6 +4,7 @@ title: Invoicer
 meta-title: Invoicer | Resources
 categories: [code]
 description: Create a quick invoice. Requires zero software other than your browser.
+image: /assets/images/resources/invoicer.png
 sitemap: true
 ---
 
