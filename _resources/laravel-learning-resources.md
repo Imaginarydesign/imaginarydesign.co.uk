@@ -5,6 +5,7 @@ meta-title: Laravel learning resources | Resources
 categories: [code]
 description: Personal list of resources for learning Laravel (elegant PHP framework), if you have any favorite Laravel learning resources that are not on this list, please get in touch.
 image: /assets/images/resources/laravel-learning.png
+order: 4
 intro: 
 sitemap: true
 ---

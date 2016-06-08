@@ -6,8 +6,8 @@ description: A collection of free resources made by me.
 intro: A collection of free resources made by me
 in-nav: true
 ---
-
-{% for post in site.resources %}
+{% assign sorted = site.resources | sort: 'order' %}
+{% for post in sorted %}
 {% if post.hidden != true %}
 <section class="case-study section-padding {% cycle 'section-grey', '' %}" style="overflow: hidden;">
   <div class="container">
@@ -21,6 +21,9 @@ in-nav: true
             </ul>
             <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
             <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            {% if post.stack %}
+            <p><small>Stack: {{ post.stack }}</small></p>
+            {% endif %}
             <p><a href="{{post.url}}" class="btn btn-fill btn-large">Read more</a></p>
           </div>
       </div>
