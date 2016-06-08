@@ -21,7 +21,9 @@ Case Studies
 
 @media screen and (max-width:991px) {
     .case-study {
-      padding-bottom: 0;
+      // padding-bottom: 0;
+      padding: 50px 0;
+      min-height: auto;
     }
 
     .case-study .device-showcase,
