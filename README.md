@@ -25,11 +25,8 @@ This repo is mostly for me. Feel free to poke around to get ideas for your next 
 ## Workflow
 
 1. Develop normally, committing entire repository (with source files) to default **master** branch.
-2. When ready to deploy, use "subtree push" to send the "_site" directory to the **_site** branch on GitHub.
-`git subtree push --prefix _site origin _site`
-3. ssh to the box
-4. Pull the changes from _site branch 
-`git pull origin _site`
+2. When ready to deploy, use "subtree push" to send the "_site" directory to the **gh-pages** branch on GitHub.
+`git subtree push --prefix _site origin gh-pages`
 
 ## Author
 
