@@ -84,6 +84,16 @@ footer {
       text-align: center;
       margin-right: 20px;
     }
+    a.instagram-share {
+      height: 60px;
+      width: 60px;
+      background-color: #e1306c;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+    }
     a.github-share {
       color: #000;
       height: 60px;
@@ -112,6 +122,9 @@ footer {
       background-color: #324C85;
     }
     a.dribbble-share:hover, a.dribbble-share:focus {
+      background-color: #d34a79;
+    }
+    a.instagram-share:hover, a.instagram-share:focus {
       background-color: #d34a79;
     }
     a.github-share:hover, a.github-share:focus {

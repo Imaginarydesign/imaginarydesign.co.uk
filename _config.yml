@@ -10,7 +10,7 @@ markdown: redcarpet
 highlighter: null # or rouge or null
 permalink: /articles/:title/
 
-gems:
+plugins:
   - jekyll-sitemap
 
 collections: 
