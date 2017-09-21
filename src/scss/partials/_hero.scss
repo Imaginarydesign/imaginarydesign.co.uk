@@ -13,6 +13,9 @@ Hero
   min-height: 350px;
   // background: url('../images/hero-adam-0.jpg') center center;
   background: #393F4E;
+  // background: #1D4350;
+  // background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+  // background: linear-gradient(to right, #A43931, #1D4350);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,6 +65,8 @@ header {
   width: 1170px;
   margin: 0 auto;
   transition: padding 300ms ease-in-out;
+  padding-right: 15px;
+  padding-left: 15px;
 
   a {
     color: $txt-light;
