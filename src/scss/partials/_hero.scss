@@ -11,11 +11,16 @@ Hero
 
 .hero {
   min-height: 350px;
-  // background: url('../images/hero-adam-0.jpg') center center;
-  background: #393F4E;
+  // background: url('../images/hero-adam.jpg') center center;
+  // background: #393F4E;
   // background: #1D4350;
   // background: -webkit-linear-gradient(to right, #A43931, #1D4350);
   // background: linear-gradient(to right, #A43931, #1D4350);
+  
+  background: #393F4E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #89253e, #393F4E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #89253e, #393F4E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
