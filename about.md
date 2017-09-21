@@ -7,9 +7,15 @@ intro: A Day In The Life Of Designer and Front-end developer
 in-nav: true
 ---
 
-I’m Adam Koniuszewski, and I am designer/frond-end developer. I live in Manchester with my wife, Ruth, and my 2 daughters, Florence(4) and Magdalena(1). Ultimately, all of my work is all about helping businesses grow through design and code.
+I’m Adam, a designer/frond-end dev from Manchester.
 
-That means I spend my time designing (websites, web apps, branding materials), coding, responding to support requests and meeting clients.
+I love a challenge; the more complex the better. For me there is nothing more rewarding than taking a complicated problem, breaking it down and delivering a beautifully simple solution.
+
+With many years of experience both in an agency environment and as a self employed freelancer, I have designed, developed and managed a wide range of web projects. This has been conducted in a variety of teams and environments from small websites for local businesses to multi million pound e-commerce websites.
+
+Ultimately, all of my work is all about helping businesses grow through design and code. That means I spend my time designing (websites, web apps, branding materials), coding, responding to support requests and meeting clients.
+
+I live in Manchester with my wife, Ruth, and my 2 daughters, Florence(5) and Magdalena(2). 
 
 ### What hardware do you use?
 
@@ -21,29 +27,8 @@ At work I use a 27” iMac. At home I use 21” iMac and 13” MacBook Air. For 
 
 I use [Feedly](http://feedly.com/) to keep up with blog posts.
 
-At work I use [Basecamp](https://basecamp.com/) for project management. [Zendesk](https://www.zendesk.com/) for support tickets and [Toggl](https://toggl.com/) for time tracking. 
+At work I use [Basecamp](https://basecamp.com/)/Teamwork/Trello for project management. [Zendesk](https://www.zendesk.com/) for support tickets. [Toggl](https://toggl.com/) for time tracking and [Slack](https://slack.com/) for team messaging.
 
-### What your typical day look like?
-
-**5-6am**- Wake up and check my email and schedule for any fires that may need my immediate attention. Coffee. Catchup with new articles on websites I follow via Feedly. Head out to the office.
-
-**7-8am**- Work on side projects, updates, fixes.
-
-**8-9am**- Check and respond to emails and support tickets. Organise client work for the day.
-
-**9am-12pm**- Client work
-
-**12pm-12.30pm**- Lunch.
-
-**12.30pm-3pm**- Client work
-
-**4.10pm-5.30pm**- Head home. Pick up Florence from nursery.
-
-**7pm-8.30pm**- Dinner, family time, get the girls ready for bed.
-
-**9pm-10pm**- Down time. Watch coupe episodes of Family Guy or something on Netflix.
-
-**10pm-11pm**- Work on side projects. Do a few lessons of current course(React and Vue.js at the moment). Prepare for the next day. 
-
-**12pm**- Bedtime.
+### The tech stuff
+I regulary use the following: Git, Github/Bitbucket, PHP, JS, Bower, Gulp, Vue.js, React.js, Laravel, npm/yarn, Blade etc.
 
