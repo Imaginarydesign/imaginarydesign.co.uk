@@ -12,6 +12,10 @@ permalink: /articles/:title/
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 collections: 
   resources:
