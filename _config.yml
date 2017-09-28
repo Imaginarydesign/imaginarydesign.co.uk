@@ -12,8 +12,6 @@ permalink: /articles/:title/
 
 plugins:
   - jekyll-sitemap
-
-gems:
   - jekyll-redirect-from
 
 whitelist:
