@@ -13,6 +13,12 @@ permalink: /articles/:title/
 plugins:
   - jekyll-sitemap
 
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 collections: 
   resources:
     output: true
