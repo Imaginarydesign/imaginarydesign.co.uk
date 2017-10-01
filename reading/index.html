@@ -7,23 +7,25 @@ intro:
 in-nav: true
 redirect_from:
   - /blog/
+  - /reading/design_principles/
+  - /reading/explaining_design/
 ---
 
 <section class="section-padding article-index">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        {% for post in site.reading %}
-          {% if post.hidden != true %}
+        {% for article in site.data.reading %}
+          {% if article.active != false %}
           <div class="article-stream">
             <ul class="list-inline meta-categories">
-            {% for category in post.categories %}
+            {% for category in article.categories %}
             <li><a href="{{ category }}">{{ category | capitalize }}</a></li>
             {% endfor %}
             </ul>
-            <h2><a href="{{ post.original_url }}" target="_blank">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            <p style="margin-top: -15px;"><a href="{{ post.original_url }}" target="_blank" style="color: #bec3c7;"><small>{{ post.original_url }}</small></a></p>
+            <h2><a href="{{ article.original_url }}" target="_blank">{{ article.title }}</a></h2>
+            <p>{{ article.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p style="margin-top: -15px;"><a href="{{ article.original_url }}" target="_blank" style="color: #bec3c7;"><small>{{ article.original_url }}</small></a></p>
           </div>
           {% endif %}
         {% endfor %}
