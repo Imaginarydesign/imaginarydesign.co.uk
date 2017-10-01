@@ -19,3 +19,11 @@
   right: 53%;
   top:70px;
 }
+
+.services-list {
+  @media (min-width: 768px) {
+    .service-item {
+      text-align: center;
+    }
+  }
+}
