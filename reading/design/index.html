@@ -13,7 +13,7 @@ intro:
         {% for article in site.data.reading %}
           {% if article.categories contains 'design' %}
           <div class="article-stream">
-            <h2><a href="{{ article.original_url }}" target="_blank">{{ article.title }}</a></h2>
+            <h3><a href="{{ article.original_url }}" target="_blank">{{ article.title }}</a></h3>
             <p>{{ article.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             <p style="margin-top: -15px;"><a href="{{ article.original_url }}" target="_blank" style="color: #bec3c7;"><small>{{ article.original_url }}</small></a></p>
           </div>
