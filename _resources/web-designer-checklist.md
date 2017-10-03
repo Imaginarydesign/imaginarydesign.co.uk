@@ -13,7 +13,7 @@ sitemap: true
 
 Web designer's checklist app. Built with Vue.js and persistant storage.
 
-<img src="https://github.com/Imaginarydesign/webdev-checklist/raw/master/preview.gif" class="img-responsive" alt="Web Designer's checklist">
+<img src="/assets/images/resources/webdev-checklist.png" class="img-responsive" alt="Web Designer's checklist">
 
 ## Preview
 
