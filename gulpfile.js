@@ -56,7 +56,7 @@ gulp.task('html', ['jekyll-build'], function () {
     path.join('_site/', '*/*/*.html'),
     path.join('_site/', '*/*/*/*.html')
   ])
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest('_site/'))
     // .pipe(browserSync.reload({stream: true, once: true}))
 })
