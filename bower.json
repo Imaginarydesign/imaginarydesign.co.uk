@@ -27,5 +27,8 @@
     "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
     "font-awesome": "^4.5.0",
     "isotope": "^2.2.2"
+  },
+  "dependencies": {
+    "jribbble": "^2.0.4"
   }
 }

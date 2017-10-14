@@ -92,7 +92,8 @@ gulp.task('js', function () {
   gulp.src([
     'bower_components/**/jquery/dist/jquery.js',
     'bower_components/**/bootstrap-sass/assets/javascripts/bootstrap.js',
-    'bower_components/**/isotope/dist/isotope.pkgd.js',
+    // 'bower_components/**/isotope/dist/isotope.pkgd.js',
+    'bower_components/**/jribbble/dist/jribbble.min.js',
     'src/js/**/*.js'
   ])
     .pipe(concat('main.js'))
