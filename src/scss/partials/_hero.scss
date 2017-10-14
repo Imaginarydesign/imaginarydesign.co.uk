@@ -11,22 +11,14 @@ Hero
 
 .hero {
   min-height: 350px;
-  // background: url('../images/hero-adam.jpg') center center;
-  // background: #393F4E;
-  // background: #1D4350;
-  // background: -webkit-linear-gradient(to right, #A43931, #1D4350);
-  // background: linear-gradient(to right, #A43931, #1D4350);
-  
-  background: #393F4E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #89253e, #393F4E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #89253e, #393F4E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #393F4E;
+  background: -webkit-linear-gradient(to left, #89253e, #393F4E);
+  background: linear-gradient(to left, #89253e, #393F4E);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-
   .down-arrow a {
     color: $txt-light;
   }
@@ -38,11 +30,28 @@ Hero
     color: #AEB0B2;
     font-size: 20px;
     font-weight: 200;
-    // margin-bottom: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     max-width: 470px;
   }
 }
+
+.hero-light {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  h1 {
+    color: #3D4351;
+  }
+  .name {
+    color: #3D4351;
+  }
+  ul.primary-nav li a, p.intro {
+    color: #848688;
+  }
+  .nav-toggle span, .nav-toggle span:after, .nav-toggle span:before {
+    background: #848688;
+  }
+}
+
 .hero#hero-latest {
   background: url('../images/hero-wireframes.jpg') center center;
   -webkit-background-size: cover;
@@ -51,28 +60,21 @@ Hero
   background-size: cover;
   position: relative;
 }
+
 .navigation {
   transition: all 300ms ease-in-out;
-  // position: fixed;
   width: 100%;
   z-index: 999;
 }
-// .fixed {
-//   position: fixed;
-//   background-color: #232731;
-//   z-index: 999;
-//   width: 100%;
-// }
+
 header {
   padding: 50px 0;
-  // border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
   margin: 0 auto;
   transition: padding 300ms ease-in-out;
   padding-right: 15px;
   padding-left: 15px;
-
   a {
     color: $txt-light;
     text-transform: uppercase;
@@ -140,6 +142,7 @@ header {
     transition: all 300ms ease-in-out;
   }
 }
+
 .down-arrow {
   color: #fff;
   font-size: 30px;
@@ -153,11 +156,9 @@ header {
 .hero-strip
 ========================================================================== */
 .hero-strip {
-  // margin-top: 120px;
   background: #333844 url("../images/polygonal-bg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative;
-
   i {
     font-family: $accent-font;
     font-weight: 300;
