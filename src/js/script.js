@@ -16,22 +16,18 @@ if (typeof console === 'object') {
 }
 
 $(document).ready(function () {
-  /** *************** Nav Transformicon ******************/
-
-  /* When user clicks the Icon */
+  // Nav Transformicon
   $('.nav-toggle').click(function () {
     $(this).toggleClass('active')
     $('.header-nav').toggleClass('open')
     event.preventDefault()
   })
-  /* When user clicks a link */
   $('.header-nav li a').click(function () {
     $('.nav-toggle').toggleClass('active')
     $('.header-nav').toggleClass('open')
   })
 
-  /** *************** Smooth Scrolling ******************/
-
+  // Smooth Scrolling
   $(function () {
     $('a[href*=\\#]:not([href=\\#])').click(function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -46,4 +42,54 @@ $(document).ready(function () {
       }
     })
   })
+
+  // Get Dribbble shots
+  $.jribbble.setToken('bb8b8216ea26249f45ca0acad30b2658b2066f89c879936a8a03cb87b326be4e')
+  $.jribbble.users('imaginarydesign').shots({per_page: 99}).then(function (shots) {
+    var shotsArray = []
+
+    shots.forEach(function (shot) {
+      item = {}
+      item['likes'] = shot.likes_count
+      item['link'] = shot.html_url
+      item['img'] = shot.images.normal
+
+      // get most recent 99 shots and throw them into a json array
+      shotsArray.push(item)
+    })
+
+    // sort the json array by most liked shots (function down the bottom)
+    shotsArray = sortJSON(shotsArray, 'likes', 'desc')
+
+    var html = []
+
+    // only return 12 shots
+    // shotsArray.forEach(function (i, element) {
+    //   html.push('<div class="shot">')
+    //   html.push('<a href="' + element.link + '" target="_blank">')
+    //   html.push('<img src="' + element.img + '">')
+    //   html.push('</a></div>')
+
+    //   if (i == 11) { return false }
+    // })
+
+    $.each(shotsArray, function (i, element) {
+      html.push('<div class="shot">')
+      html.push('<a href="' + element.link + '" target="_blank">')
+      html.push('<img src="' + element.img + '">')
+      html.push('</a></div>')
+
+      if (i == 11) { return false }
+    })
+
+    $('.shots').html(html.join(''))
+  })
 })
+
+function sortJSON (data, key, way) {
+  return data.sort(function (a, b) {
+    var x = a[key]; var y = b[key]
+    if (way === 'asc') { return ((x < y) ? -1 : ((x > y) ? 1 : 0)) }
+    if (way === 'desc') { return ((x > y) ? -1 : ((x < y) ? 1 : 0)) }
+  })
+}
