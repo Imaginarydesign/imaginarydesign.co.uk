@@ -97,3 +97,21 @@
     padding-left: 18px;
   }
 }
+
+.dribbble-shots {
+  position: relative;
+  background: #fff;
+}
+.shots {
+  display: table;
+  content: " ";
+  margin-top: 20px;
+  .shot {
+    float: left;
+    width: 25%;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+}
