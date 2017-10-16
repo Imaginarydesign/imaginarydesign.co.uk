@@ -51,10 +51,11 @@ gulp.task('build', ['sass', 'js', 'img', 'icons', 'html'])
  */
 gulp.task('html', ['jekyll-build'], function () {
   gulp.src([
-    path.join('_site/', '*.html'),
-    path.join('_site/', '*/*.html'),
-    path.join('_site/', '*/*/*.html'),
-    path.join('_site/', '*/*/*/*.html')
+    '_site/*.html',
+    '_site/*/*.html',
+    // '!_site/demo/*/*.html',
+    '_site/*/*/*.html',
+    '_site/*/*/*/*.html'
   ])
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest('_site/'))

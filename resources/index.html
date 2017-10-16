@@ -19,12 +19,14 @@ in-nav: true
             <li><a href="{{ category }}">{{ category | capitalize }}</a></li>
             {% endfor %}
             </ul>
-            <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+            <h2>
+              <a href="{{post.url}}">{{ post.title }}</a>
+            </h2>
             <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
             {% if post.stack %}
             <p><small>Stack: {{ post.stack }}</small></p>
             {% endif %}
-            <p><a href="{{post.url}}" class="btn btn-fill btn-large">Read more</a></p>
+            <p><a href="{{post.url}}" class="btn btn-fill btn-large">More Details</a></p>
           </div>
       </div>
     </div>
