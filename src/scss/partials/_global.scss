@@ -36,6 +36,8 @@ body {
   color: $txt-primary;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   //fix for iOS
 }
 ul, ol {
