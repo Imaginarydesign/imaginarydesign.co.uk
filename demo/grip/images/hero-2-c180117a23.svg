@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="866px" height="577px" viewBox="0 0 866 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>hero-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A6A2FE" offset="0%"></stop>
+            <stop stop-color="#6D69FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero-2" fill="url(#linearGradient-1)">
+            <g id="Group-3" transform="translate(-108.000000, 224.000000)">
+                <rect id="Rectangle-4-Copy-3" transform="translate(302.369820, 366.825339) rotate(-33.000000) translate(-302.369820, -366.825339) " x="287.86982" y="177.325339" width="29" height="379" rx="14.5"></rect>
+                <rect id="Rectangle-4-Copy-5" opacity="0.181329257" transform="translate(187.369820, 363.825339) rotate(-33.000000) translate(-187.369820, -363.825339) " x="172.86982" y="174.325339" width="29" height="379" rx="14.5"></rect>
+                <rect id="Rectangle-4-Copy-4" opacity="0.297554348" transform="translate(115.369820, 166.825339) rotate(-33.000000) translate(-115.369820, -166.825339) " x="100.86982" y="-22.6746614" width="29" height="379" rx="14.5"></rect>
+            </g>
+            <g id="Group-2" transform="translate(554.000000, -178.000000)">
+                <rect id="Rectangle-4" opacity="0.486129982" transform="translate(115.369820, 166.825339) rotate(-33.000000) translate(-115.369820, -166.825339) " x="100.86982" y="-22.6746614" width="29" height="379" rx="14.5"></rect>
+                <rect id="Rectangle-4-Copy" transform="translate(311.369820, 382.825339) rotate(-33.000000) translate(-311.369820, -382.825339) " x="296.86982" y="193.325339" width="29" height="379" rx="14.5"></rect>
+                <rect id="Rectangle-4-Copy-2" opacity="0.303272192" transform="translate(311.369820, 296.825339) rotate(-33.000000) translate(-311.369820, -296.825339) " x="296.86982" y="107.325339" width="29" height="379" rx="14.5"></rect>
+                <rect id="Rectangle-4-Copy-6" opacity="0.643965127" transform="translate(370.369820, 296.825339) rotate(-33.000000) translate(-370.369820, -296.825339) " x="355.86982" y="107.325339" width="29" height="379" rx="14.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
