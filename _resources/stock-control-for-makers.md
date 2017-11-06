@@ -5,7 +5,7 @@ meta-title: Stock control for makers | Resources
 categories: [code]
 description: After watching my wife dealing with various order notes/receipts/invoices while running her ‘clothing’ business, I think I can help.
 image: /assets/images/resources/stock-control.png
-order: 5
+order: 70
 intro: 
 sitemap: true
 ---

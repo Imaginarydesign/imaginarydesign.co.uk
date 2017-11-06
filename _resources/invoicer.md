@@ -6,7 +6,7 @@ categories: [code]
 description: Create a quick invoice. Requires zero software other than your browser.
 image: /assets/images/resources/invoicer.png
 stack: Javascript, npm, Gulp, Bower
-order: 4
+order: 50
 sitemap: true
 ---
 

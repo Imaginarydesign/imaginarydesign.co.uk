@@ -5,7 +5,7 @@ meta-title: Wello - Free Multipurpose Theme | Resources
 categories: [code]
 description: 
 image: /assets/images/resources/wello.png
-order: 1
+order: 20
 sitemap: true
 ---
 

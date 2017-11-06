@@ -6,7 +6,7 @@ categories: [code]
 description: Discover the cost of your commute
 image: /assets/images/resources/commute.png
 stack: Javascript, npm, Gulp, Bower
-order: 3
+order: 40
 intro: 
 sitemap: true
 ---
