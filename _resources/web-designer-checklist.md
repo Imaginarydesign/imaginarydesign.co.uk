@@ -7,7 +7,7 @@ description: Web designer's checklist app. Built with Vue.js and persistant stor
 intro: Built with Vue.js and persistant storage.
 image: /assets/images/resources/webdev-checklist.png
 stack: Javascript, npm, Gulp, Bower, Vue.js
-order: 1
+order: 10
 sitemap: true
 ---
 

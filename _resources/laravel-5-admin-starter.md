@@ -5,7 +5,7 @@ meta-title: Laravel 5 Admin Starter | Resources
 categories: [code]
 description: Sample application for beginning development with Laravel 5
 image: /assets/images/resources/laravel5-starter.png
-order: 2
+order: 30
 stack: Javascript, PHP, Composer, Laravel, Gulp, Bower
 sitemap: true
 ---
