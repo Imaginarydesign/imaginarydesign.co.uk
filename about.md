@@ -19,7 +19,7 @@ I live in Manchester with my wife, Ruth, and my 2 daughters, Florence(5) and Mag
 
 ### What hardware do you use?
 
-At work I use a 27” iMac. At home I use 21” iMac and 13” MacBook Air. For testing and browsing on the move I use iPad 2 and iPhone 4s.
+At work I use a 27” iMac. At home I use 21” iMac and 13” MacBook Air. For testing and browsing on the move I use iPad 2 and iPhone.
 
 ### And what software?
 
@@ -28,6 +28,10 @@ At work I use a 27” iMac. At home I use 21” iMac and 13” MacBook Air. For 
 I use [Feedly](http://feedly.com/) to keep up with blog posts.
 
 At work I use [Basecamp](https://basecamp.com/)/Teamwork/Trello for project management. [Zendesk](https://www.zendesk.com/) for support tickets. [Toggl](https://toggl.com/) for time tracking and [Slack](https://slack.com/) for team messaging.
+
+### Have you read anything interesting recently?
+
+Sure [imaginarydesign.co.uk/reading/](//imaginarydesign.co.uk/reading/)
 
 ### The tech stuff
 I regulary use the following: Git, Github/Bitbucket, PHP, JS, Bower, Gulp, Vue.js, React.js, Laravel, npm/yarn, Blade etc.
