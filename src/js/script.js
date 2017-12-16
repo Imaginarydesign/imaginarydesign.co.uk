@@ -51,7 +51,7 @@ $(document).ready(function () {
     shots.forEach(function (shot) {
       item = {}
       item['likes'] = shot.likes_count
-      // item['link'] = shot.html_url
+      item['link'] = shot.html_url
       item['img'] = shot.images.normal
 
       // get most recent 99 shots and throw them into a json array
@@ -66,7 +66,7 @@ $(document).ready(function () {
     // only return 12 shots
     $.each(shotsArray, function (i, element) {
       html.push('<div class="shot">')
-      // html.push('<a href="' + element.link + '" target="_blank">')
+      html.push('<a href="' + element.link + '" target="_blank">')
       html.push('<img src="' + element.img + '">')
       html.push('</a></div>')
 
