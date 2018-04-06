@@ -43,44 +43,62 @@ $(document).ready(function () {
     })
   })
 
+  // 
   // Get Dribbble shots
-  $.jribbble.setToken('bb8b8216ea26249f45ca0acad30b2658b2066f89c879936a8a03cb87b326be4e')
-  $.jribbble.users('imaginarydesign').shots({per_page: 99}).then(function (shots) {
-    var shotsArray = []
+  // 
+  
+  // Set the Access Token
+  var accessToken = '50be956e1364b064f1db3366ef1fa36f1416120cbb2000ec373d16772543c169';
+  
+  // Call Dribble v2 API
+  $.ajax({
+    url: 'https://api.dribbble.com/v2/user/shots?access_token='+accessToken,
+    dataType: 'json',
+    type: 'GET',
+    success: function(data) {
+      console.log(data);
+      var shotsArray = [] 
+      if (data.length > 0) {
+        $.each(data, function(i, shot) {
+          
+          item = {}
+          item['likes'] = shot.likes_count
+          item['link'] = shot.html_url
+          item['img'] = shot.images.hidpi
+          shotsArray.push(item)
 
-    shots.forEach(function (shot) {
-      item = {}
-      item['likes'] = shot.likes_count
-      item['link'] = shot.html_url
-      item['img'] = shot.images.normal
+          console.log(shotsArray);
 
-      // get most recent 99 shots and throw them into a json array
-      shotsArray.push(item)
+          // sort the json array by most liked shots (function down the bottom)
+          // It doesn't work at the moment
+          shotsArray = sortJSON(shotsArray, 'likes', 'desc')
+
+          var html = []
+
+          $.each(shotsArray, function (i, element) {
+            html.push('<div class="shot">')
+            html.push('<a href="' + element.link + '" target="_blank">')
+            html.push('<img src="' + element.img + '">')
+            html.push('</a></div>')
+            if (i == 11) { return false }
+          })
+
+          $('.shots').html(html.join(''))
+
+        })
+      }
+      else {
+        $('#shots').append('<p>No shots yet!</p>');
+      }
+    }
+  });
+
+  function sortJSON (data, key, way) {
+    return data.sort(function (a, b) {
+      var x = a[key]; var y = b[key]
+      if (way === 'asc') { return ((x < y) ? -1 : ((x > y) ? 1 : 0)) }
+      if (way === 'desc') { return ((x > y) ? -1 : ((x < y) ? 1 : 0)) }
     })
+  }
 
-    // sort the json array by most liked shots (function down the bottom)
-    shotsArray = sortJSON(shotsArray, 'likes', 'desc')
-
-    var html = []
-
-    // only return 12 shots
-    $.each(shotsArray, function (i, element) {
-      html.push('<div class="shot">')
-      html.push('<a href="' + element.link + '" target="_blank">')
-      html.push('<img src="' + element.img + '">')
-      html.push('</a></div>')
-
-      if (i == 11) { return false }
-    })
-
-    $('.shots').html(html.join(''))
-  })
 })
-
-function sortJSON (data, key, way) {
-  return data.sort(function (a, b) {
-    var x = a[key]; var y = b[key]
-    if (way === 'asc') { return ((x < y) ? -1 : ((x > y) ? 1 : 0)) }
-    if (way === 'desc') { return ((x > y) ? -1 : ((x < y) ? 1 : 0)) }
-  })
-}
