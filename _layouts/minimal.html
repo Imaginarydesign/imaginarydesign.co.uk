@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="top" class="minimal {% if page.title contains 'Art' %}art{% endif %}">
+
+    <!-- PAGE CONTENT
+    ======================================= -->
+    {{ content }}
+
+    <!-- FOOTER
+    ================================================== -->
+    <div class="footer-minimal">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="footer-links">
+              <ul class="list-inline">
+                <li><a href="https://dribbble.com/ImaginaryDesign" target="_blank">Dribbble</a></li>
+                <li><a href="https://www.instagram.com/imaginarydesign/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/ImaginaryDesign" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/Imaginarydesign" target="_blank">Github</a></li>
+                <li><a href="https://uk.linkedin.com/in/koniuszewski" target="_blank">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS
+    ================================================== -->
+    {% include scripts.html %}
+
+  </body>
+</html>
