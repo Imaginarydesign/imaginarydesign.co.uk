@@ -29,6 +29,7 @@
     "isotope": "^2.2.2"
   },
   "dependencies": {
-    "jribbble": "^2.0.4"
+    "jribbble": "^2.0.4",
+    "aos": "^2.3.4"
   }
 }
