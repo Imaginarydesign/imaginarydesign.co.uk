@@ -16,6 +16,7 @@ if (typeof console === 'object') {
 }
 
 $(document).ready(function () {
+  AOS.init();
   // Nav Transformicon
   $('.nav-toggle').click(function () {
     $(this).toggleClass('active')
