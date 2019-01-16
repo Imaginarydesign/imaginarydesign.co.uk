@@ -1,7 +1,7 @@
 ---
 layout: minimal
-meta-title: Adam Koniuszewski | Designer
-description: Manchester-based designer and front-end web developer specialising in high quality responsive websites and exceptional user experience.
+meta-title: Adam Koniuszewski | Product Designer
+description: Hi, I'm Adam Koniuszewski, a digital product designer. I help business owners improve the digital experience of their users and enable them adapt to the ever-changing digital landscape.
 title: Adam Koniuszewski | Designer
 slug: Art
 redirect_from:
@@ -29,49 +29,23 @@ redirect_from:
           </a>
         </div>
       </header>
-      <h1>Hello, I’m Adam. I’m a digital product designer in Manchester.</h1>
+      <h1>Imagination is important than knowledge</h1>
     </div>
   </div>
   <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#x64;&#97;&#109;&#64;&#105;&#x6d;&#97;&#x67;&#x69;&#110;&#97;&#114;&#x79;&#100;&#101;&#115;&#x69;&#x67;&#110;&#x2e;&#99;&#x6f;&#46;&#x75;&#x6b;" class="contact-button hidden-xs"><i class="fa fa-envelope-o"></i> Get in touch</a>
   
   <div class="art-projects">
     <div class="row">
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
+      {% for article in site.data.art %}
+        {% if article.active != false %}
+        <div class="col-md-4">
+          <div class="art-item">
+            <img src="{{ article.image }}" class="img-responsive" alt="{{ article.alt }}">
+            <span class="art-title">{{ article.title }}</span>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="art-item">
-          <img src="http://dummyimage.com/800x600/ffffff/686a82.gif&text=placeholder+image" class="img-responsive" alt="placeholder+image">
-          <span class="art-title">Here agshga</span>
-        </div>
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>

@@ -57,7 +57,7 @@ $(document).ready(function () {
     dataType: 'json',
     type: 'GET',
     success: function(data) {
-      console.log(data);
+      // console.log(data);
       var shotsArray = [] 
       if (data.length > 0) {
         $.each(data, function(i, shot) {
@@ -68,7 +68,7 @@ $(document).ready(function () {
           item['img'] = shot.images.hidpi
           shotsArray.push(item)
 
-          console.log(shotsArray);
+          // console.log(shotsArray);
 
           // sort the json array by most liked shots (function down the bottom)
           // It doesn't work at the moment
