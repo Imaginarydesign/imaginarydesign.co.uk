@@ -11,15 +11,15 @@
       <div class="header-nav pull-right">
         <nav>
           <ul class="primary-nav">
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
             {% assign pages = site.pages %}
             {% for p in pages order:ascending %}
             {% if p.in-nav == true %}
             <li {% if p.url == page.url %} class="active" {% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
             {% endfor %}
-            <li><a href="/#contact">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>

@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^1.1.2",
-    "gulp": "^3.8.*",
+    "gulp": "^3.9.*",
     "gulp-autoprefixer": "0.0.7",
     "gulp-clean": "~0.3.1",
     "gulp-concat": "~2.3.4",
@@ -21,9 +21,12 @@
     "gulp-main-bower-files": "^1.3.1",
     "gulp-minify-css": "~0.3.*",
     "gulp-rename": "~1.2.0",
-    "gulp-sass": "^2.0.*",
+    "gulp-sass": "3.0.*",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "~0.3.*",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
   }
 }

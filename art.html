@@ -1,0 +1,51 @@
+---
+layout: minimal
+meta-title: Adam Koniuszewski | Product Designer
+description: Hi, I'm Adam Koniuszewski, a digital product designer. I help business owners improve the digital experience of their users and enable them adapt to the ever-changing digital landscape.
+title: Adam Koniuszewski | Designer
+slug: Art
+redirect_from:
+  - /galeria-legnicka/
+  - /testimonials/
+---
+<!-- <div class="back-link"><a href="/">Back</a></div> -->
+<div class="sidebar">
+  <div class="back-link">
+    <a href="/">Back</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Heading -->
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <header>
+        <div class="logo">
+          <a href="/">
+            <img src="/assets/images/logo-1.svg" alt="Imaginary Design logo">
+            <div class="name">Adam Koniuszewski</div>
+            <div class="title">UI/UX designer</div>
+          </a>
+        </div>
+      </header>
+      <h1>Imagination is important than knowledge</h1>
+    </div>
+  </div>
+  <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#x64;&#97;&#109;&#64;&#105;&#x6d;&#97;&#x67;&#x69;&#110;&#97;&#114;&#x79;&#100;&#101;&#115;&#x69;&#x67;&#110;&#x2e;&#99;&#x6f;&#46;&#x75;&#x6b;" class="contact-button hidden-xs"><i class="fa fa-envelope-o"></i> Get in touch</a>
+  
+  <div class="art-projects">
+    <div class="row">
+      {% for article in site.data.art %}
+        {% if article.active != false %}
+        <div class="col-md-4">
+          <div class="art-item">
+            <img src="{{ article.image }}" class="img-responsive" alt="{{ article.alt }}">
+            <span class="art-title">{{ article.title }}</span>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
