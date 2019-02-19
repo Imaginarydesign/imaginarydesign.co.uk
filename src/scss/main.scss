@@ -162,6 +162,11 @@ body.minimal {
   b, strong {
     font-weight: 600;
   }
+  @media screen and (min-width:768px) {
+    ul {
+        margin-left: -30px;
+      }
+  }
   .btn {
     background-color: #0176FF;
     border: none;
