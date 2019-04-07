@@ -126,6 +126,7 @@ gulp.task('watch', function () {
     'reading/**/*',
     '_layouts/*.html',
     '_posts/*',
+    'writing/**/*',
     '_resources/**/*',
     '_reading/**/*',
     '_includes/*'
