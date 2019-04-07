@@ -124,6 +124,28 @@
 body.art {
   background-color: #F3F5F6;
 }
+body.article {
+  h2 {
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-bottom: 40px;
+    li {
+      list-style: disc;
+      margin-left: 30px;
+      margin-bottom: 5px;
+    }
+  }
+  ol {
+    margin-bottom: 40px;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  .footer-links li {
+    margin-left: 0;
+  }
+}
 body.minimal {
   padding-top: 80px;
   // color: #292C30 ;
@@ -166,6 +188,12 @@ body.minimal {
     ul {
         margin-left: -30px;
       }
+    .footer-links ul {
+      margin-left: 0;
+    }
+  }
+  .posts-list a {
+    line-height: 40px;
   }
   .btn {
     background-color: #0176FF;
@@ -179,6 +207,9 @@ body.minimal {
     margin-top: 30px;
     margin-bottom: 50px;
     font-style: italic;
+  }
+  .hero-mini {
+    margin-bottom: 40px;
   }
   .contentList {
     margin-bottom: 35px;
@@ -239,6 +270,13 @@ body.minimal {
         text-decoration: none;
         border: none;
       }
+      li {
+        margin-bottom: 5px;
+        @media screen and (max-width:540px) {
+          display: block;
+        }
+      }
+      
     }
   }
   .service-list-item {
