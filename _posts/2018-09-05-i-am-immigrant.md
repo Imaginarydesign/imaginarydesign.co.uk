@@ -1,6 +1,7 @@
 ---
 layout: article
 title: I am an immigrant
+meta-title: I am an immigrant | Adam Koniuszewski
 description: I left my past behind me. I left my friends. The place I was born. The place I went to school. The place where I grew up. The place I had my first kiss.
 reading_time: 3 min
 ---

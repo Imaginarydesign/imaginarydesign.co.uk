@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Who is design for?
+meta-title: Who is design for? | Adam Koniuszewski
 description: Henry Ford once said, “If I had asked people what they wanted, they would have said faster horses.”
 reading_time: 4 min
 ---

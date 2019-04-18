@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Design is a journey
+meta-title: Design is a journey | Adam Koniuszewski
 description: The hard part is not the first pixel, nor the last, but everything in between.
 reading_time: 1 min
 ---
