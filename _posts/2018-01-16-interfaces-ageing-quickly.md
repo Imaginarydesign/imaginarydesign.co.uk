@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Interfaces ageing quickly
+meta-title: Interfaces ageing quickly | Adam Koniuszewski
 description: Designs begin to die from the moment they were conceived.
 reading_time: 1 min
 ---

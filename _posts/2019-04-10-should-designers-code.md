@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Should designers code
+meta-title: Should designers code | Adam Koniuszewski
 description: There’s a recurring debate in our industry over whether or not designers should write code. Everyone has an opinion. The answers always depending on who is asking.
 reading_time: 2 min
 ---

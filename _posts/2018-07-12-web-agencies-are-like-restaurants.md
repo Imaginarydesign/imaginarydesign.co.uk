@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Web design agencies are like restaurants
+meta-title: Web design agencies are like restaurants | Adam Koniuszewski
 description: Great restaurants don’t simply sell food. They sell an experience.
 reading_time: 1 min
 ---
