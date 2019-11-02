@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Interfaces ageing quickly
-meta-title: Interfaces ageing quickly | Adam Koniuszewski
+meta-title: Interfaces ageing quickly | Adam Koniuszewski, Designer in Manchester, UK
 description: Designs begin to die from the moment they were conceived.
 reading_time: 1 min
 ---

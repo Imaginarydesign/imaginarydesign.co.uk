@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Design is a team game
-meta-title: Design is a team game | Adam Koniuszewski
+meta-title: Design is a team game | Adam Koniuszewski, Designer in Manchester, UK
 description: Even with the best intentions, a design is only one of the parts in creating a successful product.
 reading_time: 1 min
 ---
