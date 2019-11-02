@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Multiple design options
-meta-title: Multiple design options | Adam Koniuszewski
+meta-title: Multiple design options | Adam Koniuszewski, Designer in Manchester, UK
 description: The creative process is a bit like giving birth. You wouldn’t want to go through it twice just to see which child you want to keep.
 reading_time: 1 min
 ---

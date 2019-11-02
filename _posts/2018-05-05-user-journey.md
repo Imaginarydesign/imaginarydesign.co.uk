@@ -1,7 +1,7 @@
 ---
 layout: article
 title: User journey
-meta-title: User journey | Adam Koniuszewski
+meta-title: User journey | Adam Koniuszewski, Designer in Manchester, UK
 description: Everything that the user hears and sees shapes the user’s journey. And it can be designed.
 reading_time: 2 min
 ---

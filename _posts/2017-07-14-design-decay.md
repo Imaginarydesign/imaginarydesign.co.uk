@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Design decay
-meta-title: Design decay | Adam Koniuszewski
+meta-title: Design decay | Adam Koniuszewski, Designer in Manchester, UK
 description: Recently I revisited one of our older design projects and realised how weak the design had become. I was surprised how quickly this happened.
 reading_time: 1 min
 ---

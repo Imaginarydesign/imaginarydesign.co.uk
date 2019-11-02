@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Website are living organisms
-meta-title: Website are living organisms | Adam Koniuszewski
+meta-title: Website are living organisms | Adam Koniuszewski, Designer in Manchester, UK
 description: Web sites are living organisms. Very often the fine balance between all the elements is very delicate. You can’t pull one of the elements from it and expect the website to work the same way/stand.
 reading_time: 2 min
 ---
