@@ -150,7 +150,7 @@ body.minimal {
   padding-top: 80px;
   // color: #292C30 ;
   color: #000 ;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'PT Serif', serif;
   // font-family: 'PT Serif', serif;
   font-size: 21px;
   @media screen and (max-width:1300px) {
@@ -230,6 +230,7 @@ body.minimal {
     .logo {
       min-width: 240px;
       margin-top: 0;
+      font-family: 'Montserrat', sans-serif;
     }
     .logo .name {
       color: #292C30;
@@ -269,6 +270,7 @@ body.minimal {
         color: rgba(0, 0, 0, 0.55);
         text-decoration: none;
         border: none;
+        font-family: 'Montserrat', sans-serif;
       }
       li {
         margin-bottom: 5px;
@@ -315,6 +317,7 @@ body.minimal {
       }
       .art-title {
         font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
       }
     }
   }
@@ -345,6 +348,7 @@ body.minimal {
         text-decoration: none;
         border: none;
         color: #8E9AA7;
+        font-family: 'Montserrat', sans-serif;
       }
     }
     @media screen and (max-width:1300px) {
@@ -354,9 +358,11 @@ body.minimal {
   .reading-time {
     color: rgba(0, 0, 0, 0.55);
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
   .contact-button {
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
     top: 0;
     right: 0;
     background-color: #0176FF;
@@ -387,6 +393,7 @@ body.minimal {
       display: inline-block;
       min-width: 240px;
       margin-bottom: 40px;
+      font-family: 'Montserrat', sans-serif;
       img {
         float: left;
         padding-right: 10px;
