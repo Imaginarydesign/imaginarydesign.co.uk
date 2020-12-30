@@ -48,7 +48,7 @@
 // @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
 // @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
 // @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
-// @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
 
 // Utility classes
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
@@ -58,7 +58,7 @@
 @import "bower_components/aos/dist/aos";
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,700,600|Poppins:700|PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,700,600|Poppins:400,700|PT+Serif:400,700');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
 @import "bower_components/font-awesome/scss/font-awesome.scss";
@@ -149,7 +149,7 @@ body.article {
 body.minimal {
   padding-top: 80px;
   // color: #292C30 ;
-  color: #000 ;
+  color: #001833 ;
   font-family: 'PT Serif', serif;
   // font-family: 'PT Serif', serif;
   font-size: 21px;
@@ -158,10 +158,16 @@ body.minimal {
   }
   h1, h2, h3, h4 {
     font-family: "Poppins", sans-serif;
+    font-weight: 700;
   }
   h1 {
     font-size: 50px;
     line-height: 65px;
+    @media (min-width: 1200px) {
+      font-size: 63px;
+      line-height: 70px;
+      letter-spacing: -1px;
+    }
   }
   h2 {
     font-size: 28px;
@@ -200,7 +206,7 @@ body.minimal {
     border: none;
     color: #fff;
     border-radius: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   blockquote {
     font-size: 24px;
@@ -234,7 +240,7 @@ body.minimal {
       font-family: 'Montserrat', sans-serif;
     }
     .logo .name {
-      color: #292C30;
+      color: #001833;
       font-weight: 600;
       font-size: 14px;
       letter-spacing: 0.4px;
@@ -271,7 +277,7 @@ body.minimal {
         color: rgba(0, 0, 0, 0.55);
         text-decoration: none;
         border: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
       }
       li {
         margin-bottom: 5px;
@@ -363,7 +369,7 @@ body.minimal {
   }
   .contact-button {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     top: 0;
     right: 0;
     background-color: #0176FF;
@@ -407,6 +413,59 @@ body.minimal {
         }
       .title {
         color: rgba(0, 0, 0, .55);
+      }
+    }
+  }
+  .projects-carousel-section {
+    background-color: #000C19;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .caption {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.62px;
+      text-transform: uppercase;
+      color: #0153B3;
+    }
+    h2 {
+      font-size: 32px;
+      color: #fff;
+      line-height: 41px;
+      margin-bottom: 20px;
+    }
+    p {
+      opacity: .8;
+    }
+    .list-unstyled {
+      margin-left: 0;
+      margin-bottom: 20px;
+      li {
+        font-size: 14px;
+        padding-top: 8px;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+    .carousel {
+      a.carousel-control {
+        border-bottom: none;
+      }
+      .carousel-indicators {
+        bottom: -32px;
+        li {
+          background-color: #fff;
+          opacity: .2;
+          width: 10px;
+          height: 10px;
+          margin: 0 8px;
+          padding-right: 8px;
+        }
+        li.active {
+          opacity: .8;
+        }
       }
     }
   }

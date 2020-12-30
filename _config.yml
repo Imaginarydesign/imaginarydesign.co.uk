@@ -6,7 +6,7 @@ name: "Imaginary Design"
 description: Designer
 url: http://imaginarydesign.co.uk
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: null # or rouge or null
 permalink: /writing/:title/
 
