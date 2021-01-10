@@ -5,6 +5,9 @@
     "type": "git",
     "url": "https://github.com/Imaginarydesign/jekyll-and-hyde.git"
   },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
   "description": "",
   "main": "gulpfile.js",
   "author": "Adam Koniuszewski",
@@ -28,5 +31,8 @@
   },
   "dependencies": {
     "natives": "^1.1.6"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }
